@@ -1,0 +1,67 @@
+@media(max-width:1030px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%,-50%);
+    }
+
+    .offers .offer-box .offer-info .btn-outline-danger{
+        font-size: 48px;
+    }
+}
+@media(max-width:991px){
+    .home .home-banner .home-banner-text{
+        transform: translate(-66%,-50%);
+    }
+    .testimonial .carousel-control-prev{
+        left: -16px;
+    }
+    .testimonial .carousel-control-next{
+        right: -16px;
+    }
+
+}
+
+@media(max-width:767px){
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background: 50% center;
+        min-height: 450px;
+    }
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        transform: translate(-50%,-50%);
+}
+.home .home-banner .home-banner-text h1{
+    font-size: 48px;
+}
+.home .home-banner .home-banner-text h2{
+font-size: 20px;
+}
+.home .home-banner .home-banner-text .btn-danger{
+    padding: 8px 25px;
+}
+.home .icon{
+    font-size: 32px;
+
+}
+.products .up-to-content h2{
+    font-size: 12px;
+}
+.special{
+    padding:64px 0 ;
+}
+.special .countdown-container .countdown-counter li{
+    padding: 16px;
+    width: 20%;
+} 
+}
+
+@media(max-width:330px){
+    .home .home-banner .home-banner-text h2{
+        font-size: 16px;}
+}
